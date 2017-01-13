@@ -10,6 +10,15 @@
 - ![](https://github.com/xiechunming/ngrok/blob/master/ng2.png)
 - ![](https://github.com/xiechunming/ngrok/blob/master/ng5.png)
 
+#### 第二步，tomcat保持开启状态，cmd进入下载好的ngrok目录(请去官网根据各自的环境下载合适的包)，此处目录为d盘的win32,输入如下命令，要处理的三个参数图中都有说明，然后点击回车，你会看到本地的服务器地址已经被映射到公网上面
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng6.png)
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng7.png)
+
+#### 第三步，验证是否可以访问，打开公网地址，访问本地项目，看到可以正常访问。至此大功告成啦，就是这么简单。做微信后台开发需要服务器验证，此时就可以把你的公网地址填进去，每次本地修改完项目，就可以通过映射到公网查看效果啦。
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng6.png)
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng8.png)
+
+
 
 
 
