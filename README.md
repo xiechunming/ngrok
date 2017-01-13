@@ -4,47 +4,11 @@
 
 ## 大家都知道，微信后台开发服务器需要在公网能访问，本地开发需要测试的时候如果没有公网实现不了，ngrok帮我们解决了这个问题，他可以把本地的服务器地址映射的公网上面，ngrok自身的服务器在国外，有时候会访问过慢，不过没关系，国内的好多服务器都提供ngrok服务，今天就选取一家，10分钟教你内网映射到外网。地址（http://www.ittun.com/）
   
-- [微信公众平台首页](https://mp.weixin.qq.com/)
-- [微信小程序官方介绍](https://mp.weixin.qq.com/debug/wxadoc/introduction/index.html?t=20161109)
-- [微信小程序官方文档首页](https://mp.weixin.qq.com/debug/wxadoc/dev/)
-- [微信小程序体验](https://mp.weixin.qq.com/debug/wxadoc/dev/demo.html?t=20161222)
-- [开发者工具文档](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/devtools.html)
-
-## 社区站点
-- [微信小程序联盟](http://www.wxapp-union.com/)
-- [知呼微信小联盟社区](https://zhuanlan.zhihu.com/wxapp-union)
-- [简书微信小程序专题](http://www.jianshu.com/collection/dfdc2bbd1315)
-- [segmentfault微信小程序联盟](https://segmentfault.com/blog/wxapp)
-- [微信小程序开发论坛](https://weappdev.com/)
-- [hello,小程序](http://www.helloxcx.com/index.php)
-
-## 第三方支持
-- [coolsite360](http://www.coolsite360.com/) - 在线设计小程序
-- [hotapp](https://weixin.hotapp.cn/) - 第一个专业的微信小程序统计分析工具,同时可以集成后台开发
-- [wilddog](https://www.wilddog.com/) - 微信小程序集成后台开发
-- [leancloud](https://leancloud.cn/) - 微信小程序集成后台开发
-
-## 开源代码示例
-- [Small-program-douban](https://github.com/xiechunming/Small-program-douban) - 微信小程序豆瓣电影及其基本API源码结构分析
-- [weapp-gold](https://github.com/hilongjw/weapp-gold) - 掘金主页 微信小应用示例
-- [wechat-app-zhihudaily](https://github.com/myronliu347/wechat-app-zhihudaily) - 微信小程序版的知乎日报
-- [微信小程序-v2ex](https://github.com/jectychen/wechat-v2ex/) - 微信小程序版的v2ex
-
-## 参考资料
-- [w3cSchool](http://www.w3cschool.cn/weixinapp/weixinapp-location.html)
-- [极客学院微信小程序教程](http://www.jikexueyuan.com/course/3081.html)
-
-## 相关论述
-- [做微信小程序的开发者，需要掌握哪些编程技能？](https://www.zhihu.com/question/50886759)
-- [在微信应用号（微信小程序）开发什么什么应用爆发概率大？](https://www.zhihu.com/question/50878674)
-- [如何看待微信将推应用号？](https://www.zhihu.com/question/39374074)
-- [微信小程序（应用号）价值是什么？](https://www.zhihu.com/question/50875544)
-- [微信“小程序”真的来了！移动端会炸吗？Native开发何去何从？](https://www.zhihu.com/question/50874710)
-- [开始内测的「微信公众平台 · 小程序」可能有哪些应用场景？](https://www.zhihu.com/question/50871887)
-- [微信小程序的出现会给前端开发带来什么？](https://www.zhihu.com/question/50900987)
-- [微信小程序（应用号）来了，对创业者来说到底是不是好机会？](https://www.zhihu.com/question/50885176)
-- [微信的小程序会导致安卓和ios开发失业吗？](https://www.zhihu.com/question/50879269)
-- [微信应用号是否真能颠覆APP？](https://www.zhihu.com/question/50878415)
+#### 第一步，配置好tomcat服务器（此处不作介绍），在webapp目录下创建一个项目，项目名称ngrok;通过bin目录下startup.bat启动服务器；然后在浏览器中打开localhost:8080/ngrok/index.html，可以正常访问，说明本地tomcat服务器创建成功
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng3.png)
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng1.png)
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng2.png)
+- ![](https://github.com/xiechunming/ngrok/blob/master/ng5.png)
 
 
 
